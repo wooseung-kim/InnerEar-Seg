@@ -85,7 +85,7 @@ test_transforms = Compose(
     ]
 )
 test_ds = Dataset(
-    data=test_Data[1:2],
+    data=test_Data,
     transform=test_transforms,
 )
 test_loader = DataLoader(
