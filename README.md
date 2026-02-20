@@ -3,6 +3,10 @@ Official repository for the paper "Deep Learning-Based Inner Ear Subregion Segme
 
 ---
 
+## Background
+Inner ear segmentation supports the diagnosis and treatment planning of auditory-related disorders such as Meniere’s disease. However, manual annotation of inner ear structures on MR images is both time-consuming and labor-intensive. To address this limitation, we developed a deep learning method that takes T2-weighted MR images as input and segments the inner ear into three subregions: the cochlear basal turn, the cochlear mid-to-apical turn, and the vestibule including the semicircular canals.
+![innerear_seg](img0.png)
+
 ## Installation
 
 ```bash
